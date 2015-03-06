@@ -1,0 +1,19 @@
+{
+    "name": "fancyguy/rest-api-bundle",
+    "description": "Basic framework for developing REST APIs",
+    "authors": [
+        {
+            "name": "Steve Buzonas",
+            "email": "steve@fancyguy.com"
+        }
+    ],
+    "license": "MIT",
+    "autoload": {
+        "psr-4": { "FancyGuy\\Bundle\\RestApiBundle\\": "src/" }
+    },
+    "autoload-dev": {
+        "psr-4": { "FancyGuy\\Bundle\\RestApiBundle\\Test\\": "tests/" }
+    },
+    "require": {
+    }
+}

@@ -2,7 +2,7 @@
 
 namespace FancyGuy\Bundle\RestApiBundle;
 
-use Symfony\Component\HttpKernel\Bundle\Bundle;
+use FancyGuy\Component\Bundle\Bundle;
 
 class FancyGuyRestApiBundle extends Bundle
 {

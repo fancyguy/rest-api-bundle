@@ -15,5 +15,11 @@
         "psr-4": { "FancyGuy\\Bundle\\RestApiBundle\\Test\\": "tests/" }
     },
     "require": {
+    },
+    "require-dev": {
+        "nelmio/api-doc-bundle": "~2.5"
+    },
+    "suggest": {
+        "nelmio/api-doc-bundle": "Provides documentation generation for API endpoints"
     }
 }
